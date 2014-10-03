@@ -15,6 +15,6 @@ class query_to_df:
 		return df
 		
 	def connect(self):
-		self.conn=pg.connect('amg','analytics-dw-1.analyticsmediagroup.net',5439, None,None, self.user_name,self.pword)
+		self.conn=pg.connect('db_name','db_path',port_number, None,None, self.user_name,self.pword)
 
 		
